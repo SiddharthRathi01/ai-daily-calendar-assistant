@@ -291,6 +291,20 @@ Never commit:
 
 Use n8n's credential management system for authentication.
 
+## Testing
+
+The workflow should be tested by verifying:
+
+1. The scheduled trigger starts the workflow correctly.
+2. Google Calendar events are retrieved successfully.
+3. All events for the day are analyzed.
+4. Exactly two meetings are selected.
+5. The meeting ranking is based on the defined prioritization criteria.
+6. Event times and attendees are accurate.
+7. No unsupported information is invented.
+8. The HTML email is generated correctly.
+9. The briefing is delivered to the configured recipient.
+
 ## Project Objective
 
 The objective of this project is to demonstrate how an AI Agent can transform a standard calendar into an intelligent daily meeting briefing.
